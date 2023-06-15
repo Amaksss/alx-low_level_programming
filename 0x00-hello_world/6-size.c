@@ -11,8 +11,11 @@ int main(void)
         int y = 4;
 	int z = 8;
 
-	printf("Size of a char: %i byte(s)\nSize of an int: %i byte(s)\nSize of a long int: %i byte(s)\nSize of a long long int: %i byte(s)\nSize of a float: %i bytes(s)\n", x, y, y, z, y);
+	printf("Size of a char: %i byte(s)\n", x);
+	printf("Size of an int: %i byte(s)\n", y);
+	printf("Size of a long int: %i byte(s)\n", y);
+	printf("Size of a long long int: %i byte(s)\n", z);
+	printf("Size of a float: %i byte(s)\n", y);
 
 	return (0);
 }
-
