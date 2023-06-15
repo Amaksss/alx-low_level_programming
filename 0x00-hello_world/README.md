@@ -1,1 +1,1 @@
-assembler
+executable name
