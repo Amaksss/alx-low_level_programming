@@ -1,1 +1,1 @@
-executable name
+hello puts
