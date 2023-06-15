@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * This program prints using the function puts and not printf
- * Return 1
+ * main - prints "Programming is like building a multilingual puzzle"
+ *
+ * Return 0 (success)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
