@@ -7,7 +7,7 @@
  * Return: 0 (succcess)
  */
 
-int main()
+int main(void)
 {
 int n;
 
@@ -16,14 +16,17 @@ n = rand() - RAND_MAX / 2;
 
 printf("%d \n", n);
 
-if (n > 0) {
-printf("The number is positive\n");
+if (n > 0) 
+{
+printf("The number: %d is positive\n", n);
 }
-else if (n < 0) {
-printf("The number is negative\n");
+else if (n < 0)
+{
+printf("The number: %d is negative\n", n);
 }
-else {
-printf("The number is zero\n");
+else
+{
+printf("The number: %d is zero\n", n);
 }
 
 return (0);
