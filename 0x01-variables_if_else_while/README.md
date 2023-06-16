@@ -1,1 +1,1 @@
-possible combo of single digits
+hexadecimal
