@@ -7,12 +7,14 @@
  * Return: 0 (succcess)
  */
 
-int main(void)
+int main()
 {
 int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+
+printf("%d \n", n);
 
 if (n > 0)
 {
