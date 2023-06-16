@@ -1,1 +1,1 @@
-intel syntax
+standard error
