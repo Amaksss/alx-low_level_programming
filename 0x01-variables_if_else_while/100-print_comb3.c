@@ -15,7 +15,8 @@ int main(void)
 	{
 			putchar(x + '0');
 			putchar(y + '0');
-			if (y > x)
+	}
+			if (y != x)
 
 {
 	putchar(' ');
