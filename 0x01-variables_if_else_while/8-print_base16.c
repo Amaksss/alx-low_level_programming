@@ -6,13 +6,15 @@
 
 int main(void)
 {
+	int x;
+
 	for (x = 0; x < 10; ++x)
 	{
-		putchar(x + '0')
+		putchar(x + '0');
 	}
 	for (x = 0; x < 7; ++x)
 	{
-		putchar(x + 'a')
+		putchar(x + 'a');
 	}
 putchar('\n');
 
