@@ -1,1 +1,1 @@
-lowercase except q and e
+last digit
