@@ -16,15 +16,15 @@ srand(time(0));
 
 if ((n % 10) > 5)
 {
-printf("Last digit of %d is n and is greater than 5\n", n);
+printf("Last digit of %d is %d and is greater than 5\n", n);
 }
 else if ((n % 10) == 0)
 {
-printf("Last digit of %d is n and is 0\n", n);
+printf("Last digit of %d is %d and is 0\n", n);
 }
 else if ((n % 10) < 6 && (n % 10) != 0)
 {
-printf("Last digit of %d is n and is less than 6 and not 0\n", n);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
 }
 return (0);
 }
