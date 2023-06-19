@@ -16,16 +16,30 @@ for (k = 0; k < 100; k++)
 {
 for (l = 0; l < 100; l++)
 {
-	putchar(i);
-	putchar(j);
-	putchar(k);
-	putchar(l);
+if (((k + l) > (i + j) && k >= i) || i < k)
+{
+
+putchar(i);
+putchar(j);
+putchar(' ');
+putchar(k);
+putchar(l);
+
+if (i + j + k + l == 227 && i == 57)
+{
+break;
+}
+else
+{
+putchar(',');
+putchar(' ');
+}
+}
 }
 }
 }
 }
 
-if (i != j)
 putchar('\n');
 return (0);
 }

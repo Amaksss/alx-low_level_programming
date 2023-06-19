@@ -1,1 +1,1 @@
-single digit
+two numbers
