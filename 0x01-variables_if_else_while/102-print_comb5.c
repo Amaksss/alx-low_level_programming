@@ -8,13 +8,13 @@ int main(void)
 {
 int i, j, k, l;
 
-for (i = 0; i < 100; i++)
+for (i = 48; i <= 57; i++)
 {
-for (j = 0; j < 100; j++)
+for (j = 48; j <= 57; j++)
 {
-for (k = 0; k < 100; k++)
+for (k = 48; k <= 57; k++)
 {
-for (l = 0; l < 100; l++)
+for (l = 48; l <= 57; l++)
 {
 if (((k + l) > (i + j) && k >= i) || i < k)
 {
