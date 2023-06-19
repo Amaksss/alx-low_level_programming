@@ -1,1 +1,1 @@
-two digits
+alphabet

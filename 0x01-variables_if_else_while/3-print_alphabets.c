@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
- * main - prints lower and uppercase characters follwed by a new line
+ * main - Entry
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	int i;
 
-for (i = 'a'; i <= 'z'; i++)
-{
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i + 'a');
-		putchar(i + 'A');
+		for (i = 'A'; i <= 'Z'; i++)
+		{
+			putchar(i + 'a');
+			putchar(i + 'A');
+		}
 	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
