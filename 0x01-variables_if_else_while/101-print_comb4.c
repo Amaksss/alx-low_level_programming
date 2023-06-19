@@ -20,10 +20,16 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if ((i != 9) && (j != 9) && (k != 9))
+					if (i !=9)
+					{
+						if (j != 9)
+						{
+							if (k != 9)
 							{
 					putchar(',');
 					putchar(' ');
+					}
+						}
 					}
 				}
 			}
