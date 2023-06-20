@@ -14,7 +14,7 @@ for (j = 0; j <= 26; j++)
 {
 _putchar(j + 'a');
 }
-if (i < 9)
+if (i < 11)
 {
 _putchar('\n');
 }
