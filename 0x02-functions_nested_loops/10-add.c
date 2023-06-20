@@ -10,8 +10,8 @@ int main(void)
 
 	int add = a + b;
 	{
-		_putchar("%d", add);
+		printf("%d", add);
 	}
-	_putchar('\n');
+	printf('\n');
 	return (0);
 }
