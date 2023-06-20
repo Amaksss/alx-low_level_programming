@@ -4,14 +4,15 @@
  * Return: 0 (success)
  */
 
-int print_last_digit()
+int print_last_digit(int n)
 {
-	int i;
+	int a;
 
-	while (i = num % 10)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-	return (0);
+	if (n < 10)
+		n = -n
+			a = n % 10;
+	if (a < 10)
+		a = -a;
+	_putchar(a + '0');
+	return (a);
 }
