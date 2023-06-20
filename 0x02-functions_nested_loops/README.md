@@ -1,1 +1,1 @@
-alphabet
+natural numbers
