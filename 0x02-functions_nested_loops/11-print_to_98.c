@@ -9,13 +9,13 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		_putchar(i);
+		putchar(i);
 	}
 	if (i != 98)
 	{
-		_putchar(',');
-		_putchar(' ');
+		putchar(',');
+		putchar(' ');
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
