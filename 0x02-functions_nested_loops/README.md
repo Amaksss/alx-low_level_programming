@@ -1,1 +1,1 @@
-natural numbers
+sum
