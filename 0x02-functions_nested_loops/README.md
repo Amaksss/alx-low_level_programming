@@ -1,1 +1,1 @@
-lowecase
+natural numbers
