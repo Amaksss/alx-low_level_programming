@@ -3,14 +3,11 @@
  * add - entry point
  * Return: 0 (success)
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
+	int result = add(a, b);
 
-	int sum = a + b
-	{
-		_putchar("%d", sum);
-	}
+	_putchar("%d", result);
+	_putchar('\n');
 	return (0);
 }
