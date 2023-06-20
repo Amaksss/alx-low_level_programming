@@ -1,1 +1,1 @@
-sum
+alpha
