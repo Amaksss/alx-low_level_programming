@@ -1,21 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- * Return: 0 (success)
+ * print_to_98 - Entry point
+ * Return: void
  */
-int main(void)
+void print_to_98(int n)
 {
-	int i;
-
-	for (i = 0; i <= 98; i++)
+	for (n = 0; n <= 98; n++)
 	{
-		putchar(i);
+		_putchar(n);
 	}
-	if (i != 98)
+	if (n != 98)
 	{
-		putchar(',');
-		putchar(' ');
+		_putchar(',');
+		_putchar(' ');
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
