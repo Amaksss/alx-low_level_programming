@@ -1,18 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * add - entry point
+ * add - Entry point
  * Return: 0 (success)
  */
-int main(void)
+int add(int, int)
 {
-	int a;
-	int b;
-
-	int result = a + b;
-	{
-		printf("%d", result);
-	}
-	printf('\n');
-	return (0);
+	int sum = int + int;
+	return sum;
 }
