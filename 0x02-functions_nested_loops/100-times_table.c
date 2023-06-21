@@ -4,6 +4,8 @@
  * print_times_table - entry point
  * @n: parameter
  */
+
+
 void print_times_table(int n)
 {
 int i, j, k;
