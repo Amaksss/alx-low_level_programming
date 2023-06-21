@@ -10,8 +10,7 @@ void times_table(void)
 
 	for (i = 1; i <= 10; i++)
 	{
-		_putchar(i*i);
+		_putchar(i * i);
 	}
 	_putchar('\n');
 }
-
