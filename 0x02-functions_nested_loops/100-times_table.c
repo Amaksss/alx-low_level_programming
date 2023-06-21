@@ -2,7 +2,6 @@
 
 /**
  * print_times_table - entry point
- * starting with 0
  * @n: parameter
  */
 void print_times_table(int n)
