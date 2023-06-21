@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
+ * 1 and 2 seperated by a comma, followed by a space
  * Return: 0 (success)
  */
 int main(void)
