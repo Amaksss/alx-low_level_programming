@@ -2,8 +2,8 @@
 
 /**
  * print_sign - Entry point
- * @r: parameter
- * Retuen: 0 + or-
+ * @n: parameter
+ * Return: 0, + or -
  */
 
 int print_sign(int n)
