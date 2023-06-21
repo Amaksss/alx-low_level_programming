@@ -1,1 +1,1 @@
-minute
+times
