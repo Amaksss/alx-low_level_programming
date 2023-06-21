@@ -1,1 +1,1 @@
-natural
+minute
