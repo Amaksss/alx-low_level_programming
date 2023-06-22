@@ -2,9 +2,9 @@
 #include <math.h>
 
 /**
- * main & isprime - Entry point
+ * main && isprime - Entry point
  * @num: parameter
- * Return: 0 (success)
+ * Return: 0 if not prime, 1 if prime
  */
 int isprime(long num)
 {
@@ -29,7 +29,6 @@ int main(void)
 {
 	long number = 612852475143;
 	long largestprimefactor = 0;
-
 	long i;
 
 	for (i = 2; i <= sqrt(number); i++)
