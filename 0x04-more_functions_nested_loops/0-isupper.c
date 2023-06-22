@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - Entry point
@@ -9,7 +8,6 @@
 
 int _isupper(int c)
 {
-	char c;
 
 	if (c = 'a'; c <= 'z'; c++)
 	{
