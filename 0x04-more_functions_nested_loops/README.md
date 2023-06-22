@@ -1,1 +1,1 @@
-10 times
+line
