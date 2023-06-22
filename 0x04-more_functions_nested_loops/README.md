@@ -1,1 +1,1 @@
-triangle
+10 times
