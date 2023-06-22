@@ -10,7 +10,7 @@
 int _isupper(int c)
 {
 
-	if (c = 'a'; c <= 'z'; c++)
+	if (c <= 'a' && c <= 'z')
 	{
 		return(1);
 	}
