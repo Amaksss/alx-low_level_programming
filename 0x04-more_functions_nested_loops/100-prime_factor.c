@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - Entry point
+ * main & isprime - Entry point
  * @num: parameter
  * Return: 0 (success)
  */
