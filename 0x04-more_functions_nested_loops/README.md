@@ -1,1 +1,1 @@
-uppercase
+prime
