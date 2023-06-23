@@ -2,42 +2,37 @@
 #include <math.h>
 
 /**
- * main && isprime - Entry point
- * @num: parameter
- * Return: 0 if not prime, 1 if prime
+ * main - Entry point
+ * Return: 0 (success)
  */
-int isprime(long num)
-{
-	long i;
-
-	if (num < 2)
-	{
-		return (0);
-	}
-
-	for (i = 2; i <= sqrt(num); i++)
-	{
-		if (num % i == 0)
-		{
-			return (0);
-		}
-	}
-	return (1);
-}
-
 int main(void)
 {
-	long number = 612852475143;
-	long largestprimefactor = 0;
-	long i;
+	long int n;
+	long int max;
+	long int i;
 
-	for (i = 2; i <= sqrt(number); i++)
+	n = 612852475143;
+	max = -1;
+
+	while (n % 2 == 0)
 	{
-		if (number % i == 0 && isprime(i))
+		max = 2;
+		n /= 2;
+	}
+
+	for (i = 3; i <= sqrt(n); i = i + 2)
+	{
+		while (n % i == 0)
 		{
-			largestprimefactor = i;
+			max = i;
+			n = n / 1;
 		}
 	}
-	printf("%ld\n", largestprimefactor);
+
+	if (n > 2)
+		max = n;
+
+	printf("%ld\n", max);
+
 	return (0);
 }
