@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - Entry point
+ * main - finds and prints the largest prime factor of the number 612852475143
  * Return: 0 (success)
  */
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 		while (n % i == 0)
 		{
 			max = i;
-			n = n / 1;
+			n = n / i;
 		}
 	}
 
