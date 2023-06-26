@@ -1,1 +1,1 @@
-swap
+string length
