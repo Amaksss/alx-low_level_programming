@@ -11,13 +11,6 @@ void reset_to_98(int *n)
 	*n = 98;
 }
 
-
-#include "main.h"
-#include <stdio.h>
-/**
- * main - entry point
- * Return: 0 (always)
- */
 int main(void)
 {
 	int n = 402;
