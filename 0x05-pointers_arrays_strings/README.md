@@ -1,1 +1,1 @@
-character
+half input
