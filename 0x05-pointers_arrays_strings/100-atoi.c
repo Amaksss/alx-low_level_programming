@@ -1,5 +1,8 @@
 #include "main.h"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c3946b9bb947c478a9a6972e8ddfca732067d15
 /**
  * main - entry point
  * @s: parameter
@@ -10,7 +13,10 @@ int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c3946b9bb947c478a9a6972e8ddfca732067d15
 	i = 0;
 	d = 0;
 	n = 0;
@@ -33,6 +39,7 @@ int _atoi(char *s)
 				digit = -digit;
 			n = n * 10 + digit;
 			f = 1;
+<<<<<<< HEAD
                 
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
@@ -45,3 +52,17 @@ int _atoi(char *s)
 			return (0);
 		return (n);
 }
+=======
+
+			if (s[i + 1] < '0' || si[i + 1] > '9')
+				break;
+			f = 0;
+		}
+		i++;
+	}
+	if (f == 0)
+		return (0);
+	return (n);
+}
+
+>>>>>>> 4c3946b9bb947c478a9a6972e8ddfca732067d15
