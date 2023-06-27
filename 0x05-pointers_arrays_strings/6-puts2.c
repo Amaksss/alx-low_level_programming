@@ -8,8 +8,8 @@ void puts2(char *str)
 {
 	int length = 0;
 	int t = 0;
-	char *y = *str
-		int i;
+	int i;
+	char *y = str;
 
 
 	while (*y != '\0')
