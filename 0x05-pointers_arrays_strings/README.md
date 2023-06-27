@@ -1,1 +1,1 @@
-half input
+print array
