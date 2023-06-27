@@ -2,6 +2,7 @@
 /**
  * puts2 - entry point
  * @str: parameter
+ * Return: print
  */
 void puts2(char *str)
 {
