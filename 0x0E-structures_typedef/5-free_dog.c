@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * free_dog - frees memory allocation for a 
+ * free_dog - frees memory allocation for a
  * struct dog
  * @d: struct dog to free
  */
