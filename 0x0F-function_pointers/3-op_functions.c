@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 int op_add(int a, int b);
 int op_sub(int a, int b);
@@ -23,7 +23,7 @@ int op_add(int a, int b)
  * @a: The first number
  * @b: The second number.
  *
- * Return: The difference between a and 
+ * Return: The difference between a and
  */
 int op_sub(int a, int b)
 {
@@ -61,5 +61,5 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
-	return (a % b)
+	return (a % b);
 }
