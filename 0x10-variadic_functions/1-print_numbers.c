@@ -7,8 +7,6 @@
  * @separator: parameter
  * @n: parameter
  * @...: parameter
- *
- * Return: nothing
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
