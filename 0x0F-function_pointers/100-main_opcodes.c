@@ -6,8 +6,9 @@
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
 	int bytes, i;
@@ -33,10 +34,10 @@ int main(int argc, char *argv[])
 	{
 		if (i == bytes - 1)
 		{
-			printf("%02hhx\n", arr[1]);
+			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		printf("02hhx ", arr[1]);
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
